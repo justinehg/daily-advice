@@ -13,7 +13,9 @@ class App extends React.Component {
     fetchAdvice = () => {
         axios.get('https://api.adviceslip.com/advice')
             .then((response) => {
-                console.log(response);
+                const { advice } = response.data.slip;
+
+                console.log(advice);
             })
             .catch((error) => {
                 console.log(error);
@@ -22,9 +24,11 @@ class App extends React.Component {
 
     render() {
         return (
-            <h1>Daily Life Advice</h1>
+            <h1></h1>
         );
     }
 }
 
 export default App;
+
+// stops at 13:22
