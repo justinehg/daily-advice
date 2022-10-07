@@ -5,7 +5,7 @@ Quick Demo:
 ![Grab A Daily Advice](https://user-images.githubusercontent.com/101066358/194474465-d6d1663b-ea29-4f7e-a70f-a79e8813d26b.gif)
 
 
-- A daily advice generator for folks that just simply need something to start their day, some are serious, some are hilarious :) 
+- A daily advice generator for folks that just simply need something to start their day, some are serious, some are pure entertainment :) 
 
 # Technologies Used
 - JavaScript
